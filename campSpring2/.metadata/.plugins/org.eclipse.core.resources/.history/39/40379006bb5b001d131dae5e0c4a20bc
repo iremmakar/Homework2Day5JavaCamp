@@ -1,0 +1,6 @@
+package kodlama.io.programmingLanguage.business.repsonse;
+
+public class GetAllProgrammingLanguagesResponse {
+	private int languageId;
+	private String languageName;
+}

@@ -1,0 +1,57 @@
+package kodlama.io.programmingLanguage.business.concretes;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import kodlama.io.programmingLanguage.business.abstracts.ProgrammingLanguageSubTechnologyService;
+import kodlama.io.programmingLanguage.business.repsonse.GetAllProgrammingLanguageSubTechnologyResponse;
+import kodlama.io.programmingLanguage.business.requests.CreateProgrammingLanguageSubTechnologyRequest;
+import kodlama.io.programmingLanguage.dataAccess.abstracts.ProgrammingLanguageSubTechnologyRepository;
+import kodlama.io.programmingLanguage.entities.concretes.ProgrammingLanguageSubTechnology;
+
+public class ProgrammingLanguageSubTechnologyManager implements ProgrammingLanguageSubTechnologyService{
+
+	private ProgrammingLanguageSubTechnologyRepository programmingLanguageSubTechnologyRepository;
+	
+	
+	
+	
+	public ProgrammingLanguageSubTechnologyManager(
+			ProgrammingLanguageSubTechnologyRepository programmingLanguageSubTechnologyRepository) {
+		
+		this.programmingLanguageSubTechnologyRepository = programmingLanguageSubTechnologyRepository;
+	}
+
+	@Override
+	public List<GetAllProgrammingLanguageSubTechnologyResponse> getAll() {
+		
+		List<ProgrammingLanguageSubTechnology> programmingLanguageSubTechnology =programmingLanguageSubTechnologyRepository.findAll();
+		List<GetAllProgrammingLanguageSubTechnologyResponse> programmingLanguageSubTechnologyResponse = new ArrayList<ProgrammingLanguageSubTechnologyRepository>();
+		
+		
+		
+		
+		
+		
+		return null;
+	}
+
+	@Override
+	public void add(CreateProgrammingLanguageSubTechnologyRequest createProgrammingLanguageRequest) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(CreateProgrammingLanguageSubTechnologyRequest createProgrammingLanguageSubTechnologyRequest) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update(CreateProgrammingLanguageSubTechnologyRequest createProgrammingLanguageSubTechnologyRequest) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,5 @@
+package kodlama.io.programmingLanguage.dataAccess.abstracts;
+
+public interface ProgrammingLanguageRepository {
+
+}

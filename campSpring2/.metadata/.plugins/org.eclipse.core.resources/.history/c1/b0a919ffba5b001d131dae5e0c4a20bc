@@ -1,0 +1,7 @@
+package kodlama.io.programmingLanguage.business.repsonse;
+
+public class GetAllProgrammingLanguageSubTechnologyResponse {
+	private int subTechId;
+	private String subTechName;
+
+}

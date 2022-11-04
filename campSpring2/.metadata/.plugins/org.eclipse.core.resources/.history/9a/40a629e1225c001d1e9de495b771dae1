@@ -1,0 +1,5 @@
+package kodlama.io.programmingLanguage.webApi.contollers;
+
+public class ProgrammingLanguageSubTechnologiesController {
+
+}
